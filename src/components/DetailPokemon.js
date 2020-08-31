@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { Grid, Card as MuiCard, CardContent, Typography, makeStyles, Button, Modal, FormControl, Input, OutlinedInput, InputLabel } from '@material-ui/core'
+import { Grid, Card as MuiCard, CardContent, Typography, makeStyles, Button, Modal, FormControl, OutlinedInput, InputLabel } from '@material-ui/core'
 import { GlobalContext } from '../context/GlobalState';
 import typeColors from '../utils/typeColors';
 
