@@ -123,7 +123,11 @@ function DetailPokemon(data) {
             catchPokemon(newPokemon);
             data.history.goBack();
         } else {
-            alert("Nickname already exist!")
+            if (nickName.trim() == "") {
+                alert("Enter nickname")
+            } else {
+                alert("Nickname already exist!")
+            }
         }
     }
     return (
