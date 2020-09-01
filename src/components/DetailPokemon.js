@@ -123,7 +123,7 @@ function DetailPokemon(data) {
             catchPokemon(newPokemon);
             data.history.goBack();
         } else {
-            alert("Yang laen!!")
+            alert("Nickname already exist!")
         }
     }
     return (
